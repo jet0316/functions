@@ -40,3 +40,59 @@ var toArray = function (a, b, c){
 console.log(toArray(1,4,5))
 
 //=============================================================
+
+var startsWithA = function (aword) {
+	if (aword.charAt(0) === 'a'){
+		return true
+	}
+	else {
+		return false
+	}
+}
+
+console.log(startsWithA('apple'))
+
+//=================================================================
+
+var excite = function (word){
+	return word + '!!!'
+}
+
+console.log(excite('go'))
+
+//==================================================================
+
+var wordSun = function (word){
+	 var string = word.indexOf('sun') 
+	 if (string <= 0){
+		return true
+	}
+	else {
+		return false
+	}
+}
+
+console.log(wordSun('sunflower'))
+console.log(wordSun('apples'))
+console.log(wordSun('asunushine'))
+
+//====================================================================
+
+var tiny = function (number){
+	if (number >= 0 && number <= 1){
+		return true
+	}
+	else {
+		return false
+	}
+}
+
+console.log(tiny(0.9))
+
+//===================================================================
+
+var getSeconds = function (string){
+}
+
+
+
