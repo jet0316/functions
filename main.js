@@ -92,7 +92,15 @@ console.log(tiny(0.9))
 //===================================================================
 
 var getSeconds = function (string){
+	var split = string.split(':')
+	var min = Number(split[0])
+	var sec = Number(split[1]) 
+	var total = (min * 60) + sec
+	return total
 }
+
+console.log(getSeconds('01:30'))
+console.log(getSeconds('10:25'))
 
 
 
